@@ -1,0 +1,7 @@
+john  - 765432190
+James - 234567890
+Peter - 011202123
+Gates - 342517098
+Eric ,Macharia,112021878,macharia@gmail.com
+Eric ,macharia@gmail.com,I am really happy for the progress so far,0102030405
+kent,wailer@gmail.com,keep going,3476391054
