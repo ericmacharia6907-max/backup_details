@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Enrollment Portal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+        h1 {
+            color: #4B0082;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        input {
+            width: 300px;
+            padding: 8px;
+            margin-top: 5px;
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: purple;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: indigo;
+        }
+    </style>
+</head>
+<body>
+    <h1>Student Enrollment Portal</h1>
+    <p>Enter the new student's basic contact information.</p>
+    <form action="/enroll" method="post">
+        <label>First Name:</label>
+        <input type="text" name="first_name" required>
+
+        <label>Last Name:</label>
+        <input type="text" name="last_name" required>
+
+        <label>Email Address:</label>
+        <input type="email" name="email" required>
+
+        <label>Phone Number:</label>
+        <input type="text" name="phone" required>
+
+        <button type="submit">Enroll Student</button>
+    </form>
+    <br>
+    <a href="/download">📥 Download Enrolled Students</a>
+</body>
+</html>
